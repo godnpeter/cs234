@@ -1,0 +1,78 @@
+2019-11-04 14:35:12,216:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:53: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2019-11-04 14:35:12,221:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:95: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2019-11-04 14:35:12,221:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:96: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+2019-11-04 14:35:12,233:WARNING: Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fd60d745c18>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fd60d745c18>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 14:35:12,238:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:97: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2019-11-04 14:35:12,239:WARNING: From /home/hwang/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2019-11-04 14:35:12,310:WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fd61b3fbfd0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fd61b3fbfd0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 14:35:12,406:WARNING: Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fd60d82f780>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fd60d82f780>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 14:35:12,481:WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fd61b3fbfd0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fd61b3fbfd0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 14:35:12,483:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:141: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+2019-11-04 14:35:12,483:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:141: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+2019-11-04 14:35:12,484:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:148: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+2019-11-04 14:35:12,493:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:237: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2019-11-04 14:35:12,526:WARNING: From /home/hwang/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2019-11-04 14:35:12,591:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:132: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+2019-11-04 14:35:12,602:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:147: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+2019-11-04 14:35:12,603:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:148: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+2019-11-04 14:35:12,647:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:113: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+2019-11-04 14:35:13,922:INFO: Evaluating...
+2019-11-04 14:35:47,565:INFO: Average reward: -20.96 +/- 0.03
+2019-11-04 15:01:10,834:INFO: Evaluating...
+2019-11-04 16:05:06,361:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:53: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2019-11-04 16:05:06,365:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:95: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2019-11-04 16:05:06,365:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:96: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+2019-11-04 16:05:06,377:WARNING: Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f61c2f23ba8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f61c2f23ba8>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 16:05:06,382:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:97: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2019-11-04 16:05:06,383:WARNING: From /home/hwang/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2019-11-04 16:05:06,452:WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f61c2f959e8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f61c2f959e8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 16:05:06,464:WARNING: Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f61c2f23cc0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f61c2f23cc0>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 16:05:06,539:WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f61c2f23ba8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f61c2f23ba8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 16:05:06,541:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:141: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+2019-11-04 16:05:06,541:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:141: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+2019-11-04 16:05:06,542:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:148: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+2019-11-04 16:05:06,551:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:237: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2019-11-04 16:05:06,583:WARNING: From /home/hwang/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2019-11-04 16:05:06,731:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:132: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+2019-11-04 16:05:06,743:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:147: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+2019-11-04 16:05:06,744:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:148: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+2019-11-04 16:05:06,787:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:113: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+2019-11-04 16:05:08,002:INFO: Evaluating...
+2019-11-04 16:05:40,367:INFO: Average reward: -21.00 +/- 0.00
+2019-11-04 16:33:33,411:INFO: Evaluating...

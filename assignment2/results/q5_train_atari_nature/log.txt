@@ -1,0 +1,188 @@
+2019-11-04 22:24:25,796:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:53: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2019-11-04 22:24:25,801:WARNING: From /home/hwang/다운로드/assignment2/q3_nature.py:58: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2019-11-04 22:24:25,801:WARNING: From /home/hwang/다운로드/assignment2/q3_nature.py:59: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+2019-11-04 22:24:25,804:WARNING: From /home/hwang/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2019-11-04 22:24:25,858:WARNING: Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fa72f111eb8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fa72f111eb8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:24:25,915:WARNING: Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fa72f111eb8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fa72f111eb8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:24:25,917:WARNING: From /home/hwang/다운로드/assignment2/q3_nature.py:61: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+2019-11-04 22:24:26,009:WARNING: Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fa72f111eb8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fa72f111eb8>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 22:24:26,013:WARNING: From /home/hwang/다운로드/assignment2/q3_nature.py:62: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2019-11-04 22:24:26,084:WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fa72f111eb8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fa72f111eb8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:24:26,157:WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fa72f111eb8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fa72f111eb8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:24:26,215:WARNING: Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fa72f17ec88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fa72f17ec88>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:24:26,270:WARNING: Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fa72f17ec88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fa72f17ec88>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:24:26,281:WARNING: Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fa72f17ec88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fa72f17ec88>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 22:24:26,356:WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fa72f17ec88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fa72f17ec88>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:24:26,430:WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fa72f17ec88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fa72f17ec88>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:24:26,432:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:141: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+2019-11-04 22:24:26,432:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:141: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+2019-11-04 22:24:26,432:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:148: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+2019-11-04 22:24:26,444:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:238: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2019-11-04 22:24:26,495:WARNING: From /home/hwang/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2019-11-04 22:24:26,642:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:132: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+2019-11-04 22:24:26,654:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:147: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+2019-11-04 22:24:26,655:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:148: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+2019-11-04 22:24:26,770:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:113: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+2019-11-04 22:25:41,369:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:53: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2019-11-04 22:25:41,374:WARNING: From /home/hwang/다운로드/assignment2/q3_nature.py:58: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2019-11-04 22:25:41,374:WARNING: From /home/hwang/다운로드/assignment2/q3_nature.py:59: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+2019-11-04 22:25:41,377:WARNING: From /home/hwang/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2019-11-04 22:25:41,431:WARNING: Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f65c63fcf98>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f65c63fcf98>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:25:41,488:WARNING: Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f65c63fcf98>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f65c63fcf98>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:25:41,490:WARNING: From /home/hwang/다운로드/assignment2/q3_nature.py:61: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+2019-11-04 22:25:41,582:WARNING: Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f65c63fcf98>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f65c63fcf98>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 22:25:41,586:WARNING: From /home/hwang/다운로드/assignment2/q3_nature.py:62: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2019-11-04 22:25:41,658:WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f65c63fcf98>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f65c63fcf98>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:25:41,731:WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f65c63fcf98>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f65c63fcf98>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:25:41,788:WARNING: Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f65d2a89ac8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f65d2a89ac8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:25:41,844:WARNING: Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f65d2a89ac8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f65d2a89ac8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:25:41,856:WARNING: Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f65d2a89ac8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f65d2a89ac8>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 22:25:41,931:WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f65d2a89ac8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f65d2a89ac8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:25:42,004:WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f65d2a89ac8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f65d2a89ac8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:25:42,006:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:141: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+2019-11-04 22:25:42,006:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:141: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+2019-11-04 22:25:42,006:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:148: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+2019-11-04 22:25:42,018:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:238: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2019-11-04 22:25:42,069:WARNING: From /home/hwang/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2019-11-04 22:25:42,215:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:132: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+2019-11-04 22:25:42,224:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:147: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+2019-11-04 22:25:42,225:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:148: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+2019-11-04 22:25:42,342:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:113: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+2019-11-04 22:30:25,367:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:53: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2019-11-04 22:30:25,576:WARNING: From /home/hwang/다운로드/assignment2/q3_nature.py:58: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2019-11-04 22:30:25,576:WARNING: From /home/hwang/다운로드/assignment2/q3_nature.py:59: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+2019-11-04 22:30:25,580:WARNING: From /home/hwang/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2019-11-04 22:30:25,680:WARNING: Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fa119886cc0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fa119886cc0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:30:25,863:WARNING: Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fa1275bac18>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fa1275bac18>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:30:25,866:WARNING: From /home/hwang/다운로드/assignment2/q3_nature.py:61: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+2019-11-04 22:30:25,966:WARNING: Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fa1275bac18>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fa1275bac18>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 22:30:25,997:WARNING: From /home/hwang/다운로드/assignment2/q3_nature.py:62: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2019-11-04 22:30:26,072:WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fa119886cc0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fa119886cc0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:30:26,147:WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fa119886cc0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fa119886cc0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:30:26,205:WARNING: Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fa1198f3cf8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fa1198f3cf8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:30:26,263:WARNING: Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fa1198f3cf8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fa1198f3cf8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:30:26,274:WARNING: Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fa1198f3cf8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fa1198f3cf8>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 22:30:26,350:WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fa1198f3cf8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fa1198f3cf8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:30:26,425:WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fa1198f3cf8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fa1198f3cf8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-04 22:30:26,427:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:141: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+2019-11-04 22:30:26,427:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:141: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+2019-11-04 22:30:26,428:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:148: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+2019-11-04 22:30:26,476:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:238: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2019-11-04 22:30:26,678:WARNING: From /home/hwang/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2019-11-04 22:30:27,081:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:132: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+2019-11-04 22:30:27,091:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:147: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+2019-11-04 22:30:27,092:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:148: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+2019-11-04 22:30:28,018:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:113: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+2019-11-04 22:30:36,231:INFO: Evaluating...
+2019-11-04 22:31:13,117:INFO: Average reward: -21.00 +/- 0.00
+2019-11-04 23:12:04,741:INFO: Evaluating...
+2019-11-04 23:13:20,463:INFO: Average reward: -16.66 +/- 0.23
+2019-11-04 23:13:20,467:INFO: Recording...
+2019-11-05 00:15:16,569:INFO: Evaluating...
+2019-11-05 14:24:28,879:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:53: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2019-11-05 14:24:28,883:WARNING: From /home/hwang/다운로드/assignment2/q3_nature.py:58: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2019-11-05 14:24:28,884:WARNING: From /home/hwang/다운로드/assignment2/q3_nature.py:59: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+2019-11-05 14:24:28,886:WARNING: From /home/hwang/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2019-11-05 14:24:28,943:WARNING: Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fc3731decc0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fc3731decc0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-05 14:24:29,002:WARNING: Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fc37f86c9e8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fc37f86c9e8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-05 14:24:29,004:WARNING: From /home/hwang/다운로드/assignment2/q3_nature.py:61: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+2019-11-05 14:24:29,097:WARNING: Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fc37f86c9e8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fc37f86c9e8>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-05 14:24:29,101:WARNING: From /home/hwang/다운로드/assignment2/q3_nature.py:62: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2019-11-05 14:24:29,173:WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fc37f86c9e8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fc37f86c9e8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-05 14:24:29,246:WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fc37f86c9e8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fc37f86c9e8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-05 14:24:29,303:WARNING: Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fc3731ded30>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fc3731ded30>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-05 14:24:29,359:WARNING: Entity <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fc3731ded30>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7fc3731ded30>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-05 14:24:29,370:WARNING: Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fc37213dac8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fc37213dac8>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-05 14:24:29,444:WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fc37213dac8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fc37213dac8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-05 14:24:29,517:WARNING: Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fc37213dac8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fc37213dac8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+2019-11-05 14:24:29,519:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:141: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+2019-11-05 14:24:29,519:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:141: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+2019-11-05 14:24:29,519:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:148: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+2019-11-05 14:24:29,531:WARNING: From /home/hwang/다운로드/assignment2/q2_linear.py:238: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2019-11-05 14:24:29,581:WARNING: From /home/hwang/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2019-11-05 14:24:29,726:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:132: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+2019-11-05 14:24:29,736:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:147: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+2019-11-05 14:24:29,737:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:148: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+2019-11-05 14:24:29,854:WARNING: From /home/hwang/다운로드/assignment2/core/deep_q_learning.py:113: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+2019-11-05 14:24:31,254:INFO: Evaluating...
+2019-11-05 14:25:09,291:INFO: Average reward: -21.00 +/- 0.00
